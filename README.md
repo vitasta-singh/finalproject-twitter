@@ -8,9 +8,10 @@ flag: The query. If there is no query, then this value is NO_QUERY.
 user: The user that tweeted 
 text: The text of the tweet.
 Design a classification model that correctly predicts the polarity of the tweets provided in the dataset.  
-
-  Libraries :  
-  streamlit, numpy, pandas, seaborn, matplotlib, regularexpression, wordcloud, nltk, sklearn model selection, Tfidvectorizer, pickel.  
+  
+Libraries :  
+streamlit, numpy, pandas, seaborn, matplotlib, regularexpression, wordcloud, nltk, sklearn model selection, Tfidvectorizer, pickel.  
+  
 Procedure:  
 1) Load the dataset using twitter api and convert into csv file.
 2) Extract the columns having text and target(0,1).
@@ -22,4 +23,4 @@ Procedure:
 8) Use tfidf vectorization for occurence of relevent text in the statement.
 9) SPlit the data into training and testing apply ML model logistic regression, SVM, bernouilli naive and choose the model having highest accuracy.
 10) Save the model using pickel and test it for new data..
-11) 
+ 
